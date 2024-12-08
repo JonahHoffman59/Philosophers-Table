@@ -1,7 +1,3 @@
-//Names: Kieran Gilpin, Jonah Hoffman
-//Class: CSC 345
-//Date: 04/20/24
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
