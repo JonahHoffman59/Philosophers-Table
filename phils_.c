@@ -138,8 +138,7 @@ void *philosopher(void *philnum){
     
 }
 
- // must be a pointer when working with threading
-                     // determines first action of a philospher when thread is created
+
 
 int main(int argc, char *argv[]) {
     srand(time(NULL));
@@ -188,9 +187,6 @@ int main(int argc, char *argv[]) {
         for(int i = 0; i < numOfPhils; i++){
             pthread_join(threads[i], NULL);
         }
-    // for threads you will need to incorporate the concept of creating and
-    // joining to solve this problem
-
     
 
     for(int i = 0; i < numOfPhils; i++){
